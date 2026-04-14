@@ -320,6 +320,33 @@ h2 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.chart-item {
+  margin: 0;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.chart-item figcaption {
+  padding: 10px 12px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.chart-item figcaption strong {
+  font-size: 0.92rem;
+}
+
+.chart-item figcaption span {
+  color: #1d5ee1;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
 .swot-grid {
   margin-top: 20px;
   display: grid;
