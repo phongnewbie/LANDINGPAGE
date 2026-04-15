@@ -21,7 +21,7 @@ body {
   margin: 0;
   font-family: "Be Vietnam Pro", Arial, sans-serif;
   color: var(--text);
-  background: linear-gradient(180deg, #f7fbff 0%, #eef5ff 100%);
+  background: linear-gradient(135deg, #e7f2ff 0%, #def7ee 45%, #d9f0ff 100%);
 }
 
 img {
@@ -39,8 +39,8 @@ img {
   top: 0;
   z-index: 10;
   backdrop-filter: blur(10px);
-  background: rgba(244, 248, 255, 0.8);
-  border-bottom: 1px solid rgba(219, 231, 255, 0.85);
+  background: rgba(230, 245, 251, 0.86);
+  border-bottom: 1px solid rgba(184, 220, 236, 0.9);
 }
 
 .nav-wrap {
@@ -214,9 +214,9 @@ h1 {
 }
 
 .section-soft {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(244, 249, 255, 0.92));
-  border-top: 1px solid rgba(219, 231, 255, 0.9);
-  border-bottom: 1px solid rgba(219, 231, 255, 0.9);
+  background: linear-gradient(135deg, rgba(230, 245, 255, 0.9), rgba(224, 250, 238, 0.92));
+  border-top: 1px solid rgba(189, 224, 237, 0.9);
+  border-bottom: 1px solid rgba(189, 224, 237, 0.9);
 }
 
 h2 {
