@@ -64,8 +64,7 @@ img {
 .brand-logo {
   width: 100px !important ;
   height: 50px !important ;
-  border: 1px solid rgba(42, 127, 255, 0.18);
-  box-shadow: 0 6px 12px rgba(33, 92, 190, 0.18);
+
 }
 
 .brand-dot {
