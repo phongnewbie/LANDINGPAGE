@@ -61,7 +61,9 @@ img {
 .cart-btn:hover {
   background: #f5f5f5;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .cart-count {
   position: absolute;
   top: -6px;
