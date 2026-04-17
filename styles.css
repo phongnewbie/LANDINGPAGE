@@ -42,7 +42,36 @@ img {
   background: rgba(230, 245, 251, 0.86);
   border-bottom: 1px solid rgba(184, 220, 236, 0.9);
 }
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
 
+.cart-btn {
+  position: relative;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.cart-btn:hover {
+  background: #f5f5f5;
+}
+
+.cart-count {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
 .nav-wrap {
   min-height: 76px;
   display: flex;
