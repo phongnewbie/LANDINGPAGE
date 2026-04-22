@@ -110,14 +110,30 @@ img {
 
 .nav-menu {
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap: 8px;
+  padding: 6px;
+  border: 1px solid rgba(177, 214, 230, 0.9);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.66);
+  box-shadow: 0 8px 20px rgba(33, 94, 142, 0.08);
 }
 
 .nav-menu a {
   text-decoration: none;
   color: var(--muted);
-  font-weight: 600;
-  font-size: 0.95rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+  padding: 9px 12px;
+  border-radius: 999px;
+  transition: color 0.18s ease, background-color 0.18s ease, transform 0.18s ease;
+}
+
+.nav-menu a:hover {
+  color: #1659d8;
+  background: rgba(226, 239, 255, 0.9);
+  transform: translateY(-1px);
 }
 
 .btn {
