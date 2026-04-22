@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MiniBlend - Giỏ hàng và thanh toán</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html"><span class="brand-dot"></span><span>MiniBlend</span></a>
+        <nav class="nav-menu">
+          <a href="index.html">Trang chủ</a>
+          <a href="danh-muc-san-pham.html">Danh mục</a>
+          <a href="lien-he.html">Liên hệ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <h1>Giỏ hàng và thanh toán</h1>
+        <div class="support-grid" id="cartItems">
+          <article class="support-card">
+            <h3>Giỏ hàng đang trống</h3>
+            <p>Hãy thêm sản phẩm từ trang danh mục hoặc trang chủ.</p>
+          </article>
+        </div>
+        <article class="support-card" id="cartTotalBox" style="margin-top: 14px">
+          <h3>Tổng tạm tính</h3>
+          <p><strong id="cartTotalText">0đ</strong></p>
+        </article>
+      </div>
+
+      <div class="container cta-wrap section">
+        <div class="cta-content">
+          <h1>Giỏ hàng và thanh toán</h1>
+          <p>Hoàn tất thông tin để đặt hàng nhanh.</p>
+          <form class="order-form">
+            <div class="form-grid">
+              <label>Họ và tên<input type="text" required /></label>
+              <label>Số điện thoại<input type="tel" required /></label>
+              <label>Email<input type="email" /></label>
+              <label>Phương thức thanh toán
+                <select>
+                  <option>COD</option>
+                  <option>Momo</option>
+                  <option>VNPay</option>
+                  <option>Chuyển khoản</option>
+                </select>
+              </label>
+            </div>
+            <label>Địa chỉ nhận hàng<input type="text" required /></label>
+            <label>Ghi chú đơn hàng<textarea rows="3" placeholder="Ví dụ: giao giờ hành chính..."></textarea></label>
+            <button class="btn btn-primary btn-large" type="submit">Xác nhận thanh toán</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
